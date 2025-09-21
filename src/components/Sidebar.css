@@ -1,0 +1,11 @@
+/* Sidebar hover effect */
+ul li:hover {
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #26b6f4; /* Tailwind indigo-700 */
+  transition: background-color 0.2s ease-in-out;
+}

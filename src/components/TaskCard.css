@@ -1,0 +1,4 @@
+/* Extra override styles if Tailwind is not enough */
+.task-card-highlight {
+  @apply border-2 border-yellow-400 bg-yellow-50;
+}
