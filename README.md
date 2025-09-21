@@ -18,7 +18,6 @@
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -27,7 +26,7 @@
 
 ## 🌟 Introduction
 
-**Upaay Dashboard** is a sophisticated, web-based platform designed to streamline data management and visualization for organizations and individual users. The dashboard provides secure authentication, real-time insights, and an intuitive interface to help users make informed, data-driven decisions.
+**Upaay Dashboard** - This React project is a Kanban-style dashboard modeled on a Figma design, letting users add, move, and filter tasks. It uses Redux for state management and persists data with Local Storage. Features include pixel-perfect UI, sectioned task boards ("To Do", "In Progress", "Done"), filtering by category or priority, and optional drag-and-drop movement. Each component can be styled using Tailwind CSS for a modern interface. The app is deployable and ready for real-world use.
 
 > **Live Demo:** [upaay-dashboard.vercel.app](https://upaay-dashboard.vercel.app)
 
@@ -48,11 +47,8 @@
 
 ## 🛠 Technology Stack
 
-- **Frontend:** JavaScript, React.js (or similar)
+- **Frontend:** JavaScript, React.js
 - **Styling:** CSS3, Tailwind CSS, Styled Components
-- **Backend:** Node.js, Express.js (if applicable)
-- **APIs:** RESTful
-- **Database:** MongoDB, PostgreSQL, or similar (Please specify if used)
 - **Deployment:** Vercel
 - **Version Control:** Git & GitHub
 
@@ -87,16 +83,6 @@ Visit `http://localhost:3000` in your browser to see the application.
 3. Add, update, or delete data as permitted.
 4. Administrators can manage roles and permissions.
 5. Access settings to personalize your dashboard interface.
-
----
-
-## 🖼 Screenshots
-
-<!-- Replace with actual screenshots -->
-<p align="center">
-  <img src="screenshots/dashboard-home.png" alt="Dashboard Home" width="70%" />
-  <img src="screenshots/analytics-widget.png" alt="Analytics Widget" width="70%" />
-</p>
 
 ---
 
