@@ -34,15 +34,13 @@
 
 ## ✨ Features
 
-- **Secure User Authentication:** Robust access control for data privacy.
-- **Advanced Data Visualization:** Dynamic charts, graphs, and tables.
-- **Responsive User Interface:** Optimized for all devices.
-- **Real-Time Data Updates:** Immediate visibility of changes.
-- **Role-Based Access Control:** Custom permissions for different users.
-- **Modular Widgets:** Easily add, remove, or customize dashboard components.
-- **Efficient Navigation:** Designed for speed and usability.
-- **Customizable Themes:** Personalize your dashboard experience.
-
+- Pixel-perfect UI replication from Figma using Tailwind CSS
+- Add dynamic tasks with title and description in any column
+- Move tasks between columns with status update controls
+- Filter tasks by category and priority criteria
+- Redux-powered state management with Local Storage persistence
+- Optional drag-and-drop support for intuitive task movement
+- Responsive design adaptable for desktop and mobile
 ---
 
 ## 🛠 Technology Stack
@@ -78,11 +76,11 @@ Visit `http://localhost:3000` in your browser to see the application.
 
 ## 🧑‍💻 Usage
 
-1. Register or log in to your dashboard.
-2. Navigate through widgets and analytics sections.
-3. Add, update, or delete data as permitted.
-4. Administrators can manage roles and permissions.
-5. Access settings to personalize your dashboard interface.
+- Add a new task by entering a title and description, and selecting the column.
+- Use dropdowns on each task to move it between columns.
+- Use the filter bar to filter tasks dynamically by category or priority.
+- Tasks persist after refresh using Local Storage.
+- (Optional) Drag tasks between columns if drag-and-drop is enabled.
 
 ---
 
